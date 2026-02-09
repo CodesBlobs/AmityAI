@@ -1,0 +1,1 @@
+import"./chunks/modulepreload-polyfill.B5Qt9EMX.js";document.getElementById("allowBtn").addEventListener("click",async()=>{try{await navigator.mediaDevices.getUserMedia({audio:!0}),window.close()}catch(e){console.error("Permission denied",e),alert("Permission denied. Please allow microphone access in settings.")}});
